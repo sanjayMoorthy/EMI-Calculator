@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>EMI calculator</h1>
+            <div class="inputs">
+                <div class="inputs1">
+                    <label>Amount</label>
+                    <input type="number" placeholder="₹"  class="Amt">
+                </div>
+                <div class="inputs1">
+                    <label>Interest</label>
+                    <input type="number"  placeholder="%"  class="int">
+                </div>
+                <div class="inputs1">
+                    <label>Loan Tenure</label>
+                    <input type="number" class="yer" >
+                    <button class="selectbtn1">Yr</button>
+                    <button class="selectbtn">Mo</button>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="sub" >submit</button>
+            </div>
+            <div class="emidetails">
+                <div class="1stcontent">
+                    <label>Loan EMI</label>
+                    
+                    <p class="EMI"></p>
+                </div>
+                <div class="2stcontent">
+                    <label>Total Interest Payable</label>
+                    <p class="texts" id="text"></p>
+                </div>
+                <div class="3stcontent">
+                    <label class="title">Total Payment(Principal + Interest)</label>
+                    <p class="text"></p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
